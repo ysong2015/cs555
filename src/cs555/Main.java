@@ -18,7 +18,7 @@ public class Main {
 	}
 
 	private static void redGEDByLine(String file, List<Person> listPerson, List<Family> listFam) {
-		// TODO Auto-generated method stub
+		
 		try (Stream<String> s = Files.lines(Paths.get("C:/Users/yumen_000/Desktop", file))) {
 			Iterator<String> iter = s.iterator();
 			String perId = null, famId = null;
