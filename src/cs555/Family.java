@@ -10,6 +10,8 @@ public class Family {
 	private Person wife;
 	private List<Person> chil;
 	private String div;
+    
+    //test
 
 	public Family() {
 		this.chil = new ArrayList<>();
